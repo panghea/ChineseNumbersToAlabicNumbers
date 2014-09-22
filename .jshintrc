@@ -1,0 +1,20 @@
+{
+	"eqeqeq" : false,
+	"eqnull" : true,
+	"-W065" : true,
+	"-W092" : true,
+	"-W061" : true,
+	"-W069" : true,
+	"-W004" : true,
+	"-W099" : true,
+	"-W097" : true,
+    "undef" : false,
+
+
+
+	"-W082" : true,
+	"-W083" : true,
+    "globals" : {
+        "angular":false
+    }
+}
