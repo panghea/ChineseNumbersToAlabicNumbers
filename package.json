@@ -4,7 +4,7 @@
   "description": "Chinese Numbers convert to alabic numbers.",
   "main": "chnNumberConverter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt unit"
   },
   "repository": {
     "type": "git",

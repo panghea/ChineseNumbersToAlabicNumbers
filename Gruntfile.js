@@ -149,7 +149,8 @@ module.exports = function(grunt) {
                 preprocessors: {}
             },
             unit: {
-                browsers: ['PhantomJS', 'Chrome_without_security'],
+                singleRun: true,
+                browsers: ['PhantomJS'],
                 configFile: 'config/karma.conf.js'
             },
         }
@@ -170,7 +171,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['jsbeautifier', 'jshint', 'clean:cov', 'uglify:comp', 'uglify:ball', 'karma:build' /*, 'regex-replace:cleanComment'*/ ]); // , 'uglify', 'copy:originalJs']);
     grunt.registerTask('single', ['jsbeautifier', 'jshint', 'clean', 'uglify', 'karma:single']);
     grunt.registerTask('simple', ['jsbeautifier', 'jshint', 'clean', 'uglify', 'karma:simple']);
-    grunt.registerTask('hint', ['jsbeautifier', 'jshint', 'clean:cov', 'uglify', 'karma:unit']);
+    grunt.registerTask('unit', ['jsbeautifier', 'jshint', 'clean:cov', 'uglify:comp', 'karma:unit']);
     grunt.registerTask('build', ['jsbeautifier', 'jshint', 'clean:cov', 'uglify:comp', 'karma:build' /*, 'regex-replace:cleanComment'*/ ]); // , 'uglify', 'copy:originalJs']);
     grunt.registerTask('indent', ['jsbeautifier']);
 };
