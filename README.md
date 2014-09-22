@@ -1,4 +1,4 @@
 ChineseNumbersToAlabicNumbers
 =============================
 
- Chinese Number convert to alabic numbers.
+ Chinese Numbers convert to Alabic Numbers.
