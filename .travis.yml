@@ -5,11 +5,10 @@ before_install:
   - pwd
   - npm install
   - npm install -g grunt-cli
-  - cd -
-  - npm test
 before_script:
     #  - phantomjs --version
     #  - casperjs --version
+    #script: 'grunt unit'
 env:
   global:
     - ENGINE_FLAGS="--local-to-remote-url-access=yes --ignore-ssl-errors=yes"
