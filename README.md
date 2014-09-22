@@ -8,7 +8,7 @@ ChineseNumbersToAlabicNumbers
 
  ```javascript
 var converter = new ChnNumConverter();    
-console.log(converter.convertToAlabic("20’›“ñ•S–œ•S"));
+console.log(converter.convertToAlabic("20å…†äºŒç™¾ä¸‡ç™¾"));
  ```
 logs
  ```bash
