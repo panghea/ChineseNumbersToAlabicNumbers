@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install:
+  - pwd
+  - npm install -g grunt-cli
+  - npm install
+  - cd -
+  - pwd
+before_script:
+    #  - phantomjs --version
+    #  - casperjs --version
